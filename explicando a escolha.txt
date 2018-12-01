@@ -1,0 +1,21 @@
+Support Vector Machines (SVM)
+https://en.wikipedia.org/wiki/Support_vector_machine
+
+Situação real onde pode ser utilizado:
+	Categorização de Textos e Hipertextos.
+	Classificação de imagens.
+	Reconhecimento de caracteres manuscritos.
+	Largamente utilizado em biologia classificando proteínas.
+Quais as vantagens da utilização desse modelo? Quando ele performa bem?
+	O modelo se comporta muito bem em dados com muitos atributos (high dimension space).
+	Também pode manipular casos com dados não lineares.
+Quais são as fraquezas do modelo? Quando ele performa mal?
+	Necessita de elevado poder computacional.
+	Dificuldade de realizar ajustes finos no kernel.
+O que torna esse modelo um bom candidato para o problema, considerando o que você sabe sobre o conjunto de dados?
+	O conjunto de dados não é muito grande e tem uma quantidade elevada de atributos a serem analisados.
+
+O modelo escolhido para a CharityML encontrar doadores foi o Support Vector Machines/Support Vector Classifier, que objetiva a classificação de um conjunto de indivíduos nos gupos de "possíveis doadores" ou "não doadores".
+Entre os fatores que levaram à escolha desse modelo, chamam a atenção o grau de assertividade, girando em torno de 84%, e também a facilidade de aplicação em cenários com elevado número de atributos, que é o caso do conjunto de dados estudado.
+Apesar de apresentar um tempo de processamento elevado, considera-se que esse tempo não interfere na escolha porque o problema não exige alta performance na obtenção das respostas, visto que deve ser alimentado com uma lista de "candidatos" e essa lista será processada uma única vez.
+Portanto, a utilização desse modelo indicado trará resultados bastante satisfatórios para CharityML.

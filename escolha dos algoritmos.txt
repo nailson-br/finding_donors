@@ -1,0 +1,55 @@
+ESCOLHA DOS ALGORÍTMOS
+
+	Algorítmo: Support Vector Machines (SVM)
+		https://en.wikipedia.org/wiki/Support_vector_machine
+		Situação real onde pode ser utilizado:
+			Categorização de Textos e Hipertextos.
+			Classificação de imagens.
+			Reconhecimento de caracteres manuscritos.
+			Largamente utilizado em biologia classificando proteínas.
+
+		Quais as vantagens da utilização desse modelo? Quando ele performa bem?
+			O modelo se comporta muito bem em dados com muitos atributos (high dimension space).
+			Também pode manipular casos com dados não lineares.
+
+		Quais são as fraquezas do modelo? Quando ele performa mal?
+			Necessita de elevado poder computacional.
+			Dificuldade de realizar ajustes finos no kernel.
+
+		O que torna esse modelo um bom candidato para o problema, considerando o que você sabe sobre o conjunto de dados?
+			O conjunto de dados não é muito grande e tem uma quantidade elevada de atributos a serem analisados.
+
+	Algorítmo: DecisionTree()
+		https://en.wikipedia.org/wiki/Decision_tree
+		Situação real onde pode ser utilizado:
+			Sistemas de detecção de fraude.
+			Sistemas de recomendações de compras ou conteúdos.
+
+		Quais as vantagens da utilização desse modelo? Quando ele performa bem?
+			Simplicidade de entender e interpretar.
+			Pode ser combinado com outras técnicas de decisão.
+			Trabalha com dados qualitativos e quantitativos sem necessidade de muita preparação dos mesmos.
+
+		Quais são as fraquezas do modelo? Quando ele performa mal?
+			Pode ser relativamente impreciso. Outros modelos podem performar melhor com os mesmos dados.
+			É muito sensível aos dados. Pequenas mudanças nos valores podem retornar para grandes variações na estrutura de decisões
+
+		O que torna esse modelo um bom candidato para o problema, considerando o que você sabe sobre o conjunto de dados?
+			O conjunto de dados é relativamente pequeno e também é um problema de classificação.
+
+	Algorítmo: Gaussian Naive Bayes()
+		https://en.wikipedia.org/wiki/Naive_Bayes_classifier#Gaussian_naive_Bayes
+		Situação real onde pode ser utilizado:
+			Detecção de e-mails de spam, conforme visto nas aulas.
+			Aplicação em seguradoras para identificação de riscos baseados em grande quantidade de atributos.
+
+		Quais as vantagens da utilização desse modelo? Quando ele performa bem?
+			Simplicidade e velocidade de processamento em conjunto de dados não muito grandes.
+			Performa bem quando há vários atributos independentes.
+
+		Quais são as fraquezas do modelo? Quando ele performa mal?
+			Não é confiável em situações onde há diferenças significantes na distribuição dos dados de treinamento.
+			Tende a considerar probabilidade zero para dados os quais não são observados no conjunto de treinamento.
+
+		O que torna esse modelo um bom candidato para o problema, considerando o que você sabe sobre o conjunto de dados?
+			É um modelo que lida com dados contínuos e o conjunto de dados analisado tem atributos com dados contínuos.
