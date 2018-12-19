@@ -1,0 +1,17 @@
+SVM
+	- Podem dividir um dataset em duas classes, separadas por um hiperplano.
+
+Support Vector
+	- Sáo os pontos mais próximos do hiperplano.
+	- Esses planos, se removidos, alteram a posição do hiperplano.
+	- Por isso são considerados os elementos críticos do conjunto de dados.
+
+Hiperplano
+	- Divisor dos pontos classificados.
+	- Quanto mais longe o ponto estiver do plano, mais confiável é a classificação.
+	- Queremos os pontos o mais longe possível, no lado certo da classificação.
+
+Margem
+	- É a distância entre o hiperplano e o ponto mais próximo.
+	- Quanto maior a margem, maior a chance de um novo ponto ser classificado corretamente.
+
